@@ -9,166 +9,58 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
-            color: #333333;
+            color: #000;
+            background-color: #fff;
         }
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
+        h1, h2 {
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
         }
         h1 {
-            font-size: 2.5em;
-            margin: 0;
+            font-size: 32px;
         }
         h2 {
-            font-size: 1.5em;
-            margin: 10px 0;
+            font-size: 24px;
         }
-        h3 {
-            font-size: 1.2em;
-            margin: 5px 0;
-        }
-        .contact-info {
-            margin: 15px 0;
-            font-size: 1em;
+        p, li {
+            line-height: 1.6;
+            font-size: 16px;
         }
         .section {
-            margin-bottom: 25px;
+            margin-bottom: 40px;
         }
-        .section-title {
-            border-bottom: 2px solid #444;
-            padding-bottom: 5px;
-            font-size: 1.3em;
-            color: #007BFF;
-        }
-        .job-title {
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-        .date {
-            float: right;
-            font-size: 0.9em;
-            color: #666;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 5px 0;
-        }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .section ul li::before {
-            content: "•";
-            color: #007BFF;
-            margin-right: 8px;
+        .contact-info {
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Shehab Mohamed Elashker</h1>
+        <p class="contact-info">
+            Medical Equipments Specialist <br>
+            Gesr El Suez, Cairo, Egypt <br>
+            <a href="mailto:shehabathansioss@gmail.com">shehabathansioss@gmail.com</a> | 
+            <a href="https://www.linkedin.com/in/shehab-elashker/">LinkedIn</a> <br>
+            +201111609796
+        </p>
+    </header>
 
-    <div class="header">
-        <h1>SHEHAB MOHAMED ELASHKER</h1>
-        <h2>Medical Equipments Specialist</h2>
-        <div class="contact-info">
-            +201111609796 | 
-            <a href="https://www.linkedin.com/in/shehab-elashker/" target="_blank">LinkedIn</a> | 
-            shehabathansioss@gmail.com | 
-            Gesr El Suez, Cairo, Egypt
-        </div>
-    </div>
+    <section class="section">
+        <h2>Professional Summary</h2>
+        <p>Third-year student in the Faculty of Applied Medical Sciences at Menoufia University, specializing in medical devices. Gained strong knowledge in electronics and radiology through studies and research...</p>
+    </section>
 
-    <div class="section">
-        <h3 class="section-title">EDUCATION</h3>
-        <ul>
-            <li>Faculty of Applied Medical Sciences (Minufiya University) - Bachelors, Biomedical Equipment Technology  <span class="date">2023-2026</span></li>
-            <li>Health Technical Institute, Imbaba, Cairo, Egypt - Public Health Education and Promotion <span class="date">2018-2021</span></li>
-            <li>Hadbin School of Basic Education, Oman - High School <span class="date">2015-2018</span></li>
-        </ul>
-    </div>
+    <section class="section">
+        <h2>Education</h2>
+        <p><strong>Faculty of Applied Medical Sciences</strong>, Minufiya University (2023-2026)<br>
+        Bachelor’s in Biomedical Equipment Technology</p>
+        <p><strong>Health Technical Institute</strong>, Imbaba, Cairo (2018-2021)<br>
+        Public Health Education and Promotion</p>
+    </section>
 
-    <div class="section">
-        <h3 class="section-title">LANGUAGES</h3>
-        <p>Arabic (Native), English (Fluent), French (Beginner)</p>
-    </div>
-
-    <div class="section">
-        <h3 class="section-title">EXPERIENCE</h3>
-        <div>
-            <span class="job-title">Healthcare Specialist</span> <span class="date">Aug. 2022 - Present</span><br>
-            Al-Waili Health Department (Cairo) <br>
-            Responsibilities include providing health education to hospital patients, preparing educational material, and working closely with medical staff.
-            <ul>
-                <li>Developing health education programs tailored to patients' needs.</li>
-                <li>Collaborating with medical teams to assess and deliver suitable materials.</li>
-            </ul>
-        </div>
-        <div>
-            <span class="job-title">Sales & Packaging Support</span> <span class="date">Sep. 2020 - Apr. 2024</span><br>
-            Future Veterinary Pharmaceuticals <br>
-            Supported sales and packaging activities, ensuring accurate order preparation and quality checks.
-        </div>
-    </div>
-
-    <div class="section">
-        <h3 class="section-title">INTERNSHIPS</h3>
-        <div>
-            <span class="job-title">ELARABY HOSPITAL (Introduction to Medical Equipment)</span> <span class="date">Aug. 2024 - Sep. 2024</span><br>
-            Practical exposure to various hospital departments, gaining insights into troubleshooting and maintenance of medical devices.
-        </div>
-        <div>
-            <span class="job-title">Ain Shams General Hospital Internship</span> <span class="date">Jul. 2024 - Aug. 2024</span><br>
-            Focused on clinical engineering and maintenance of medical equipment.
-        </div>
-    </div>
-
-    <div class="section">
-        <h3 class="section-title">VOLUNTEERING</h3>
-        <p>Public Relations Volunteer, BEAM <span class="date">Sep. 2024 - Present</span></p>
-    </div>
-
-    <div class="section">
-        <h3 class="section-title">TECHNICAL PROJECTS</h3>
-        <div>
-            <span class="job-title">Pulse Oximeter Project</span><br>
-            Designed and programmed a pulse oximeter using Arduino, successfully integrating both software and hardware.
-        </div>
-        <div>
-            <span class="job-title">Adjustable Power Supply Project</span><br>
-            Led a team to design and simulate an adjustable power supply, completing the project with hands-on PCB design and testing.
-        </div>
-    </div>
-
-    <div class="section">
-        <h3 class="section-title">KEY SKILLS</h3>
-        <p><strong>Technical Skills:</strong> Python, C++, MATLAB, Research and Analysis, Medical Knowledge, Arduino, PCB Design, AI Tools</p>
-        <p><strong>Soft Skills:</strong> Planning, Problem Solving, Creativity, Leadership, Communication, Teamwork, Sales, Social Media Marketing</p>
-    </div>
-
-    <div class="section">
-        <h3 class="section-title">COURSES</h3>
-        <ul>
-            <li>IEEE Delta Academy (PR & Business) <span class="date">2024</span></li>
-            <li>IEEE Delta Academy (Robotics and Automation Society) <span class="date">2024</span></li>
-            <li>MPCS Medical Planning & Clinical Solutions (Electronics and Maintenance) <span class="date">2024</span></li>
-            <li>FWD Digital Marketing Course (Ministry of Communications and Information Technology) <span class="date">2022</span></li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h3 class="section-title">WORKSHOPS & EVENTS</h3>
-        <ul>
-            <li>EL Event at Nile University <span class="date">2024</span></li>
-            <li>Biobots, MINDRAY (X-ray) <span class="date">2024</span></li>
-            <li>Bio-Matrix Camp <span class="date">2024</span></li>
-        </ul>
-    </div>
+    <!-- Add more sections like Experience, Projects, etc. -->
 
 </body>
 </html>
