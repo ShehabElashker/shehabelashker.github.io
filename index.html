@@ -9,19 +9,23 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #ffffff;
+            color: #000000;
         }
         h1, h2, h3 {
-            color: #007BFF;
+            color: #000000;
         }
         .container {
             max-width: 800px;
             margin: auto;
-            background: white;
             padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .header {
+            border-bottom: 2px solid #000000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         .contact-info {
             font-size: 0.9em;
@@ -30,16 +34,27 @@
         .section {
             margin-bottom: 20px;
         }
+        .date {
+            float: right;
+            font-weight: bold;
+        }
+        .clearfix {
+            overflow: auto;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="header">
             <h1>SHEHAB MOHAMED ELASHKER</h1>
             <h3>Medical Equipment Specialist</h3>
             <div class="contact-info">
                 <p>Phone: +201111609796</p>
-                <p>Email: shehabathansioss@gmail.com</p>
+                <p>Email: <a href="mailto:shehabathansioss@gmail.com">shehabathansioss@gmail.com</a></p>
                 <p>LinkedIn: <a href="https://www.linkedin.com/in/shehab-elashker/" target="_blank">Shehab Elashker</a></p>
                 <p>Location: Gesr El Suez, Cairo, Egypt</p>
             </div>
@@ -63,11 +78,11 @@
         <section class="section">
             <h2>Internship & Courses</h2>
             <ul>
-                <li>IEEE Delta Academy (PR & Business) - Sep.2024-Dec.2024</li>
-                <li>IEEE Delta Academy (Robotics And Automation Society) - Sep.2024-Dec.2024</li>
-                <li>MPCS (Electronics and Maintenance Course) - Sep.2024-Sep.2024</li>
-                <li>ELARABY HOSPITAL (Introduction to Medical Equipment) Internship - Aug.2024-Sep.2024</li>
-                <li>Ain Shams General Hospital Internship - Jul.2024-Aug.2024</li>
+                <li>IEEE Delta Academy (PR & Business) <span class="date">Sep.2024-Dec.2024</span></li>
+                <li>IEEE Delta Academy (Robotics And Automation Society) <span class="date">Sep.2024-Dec.2024</span></li>
+                <li>MPCS (Electronics and Maintenance Course) <span class="date">Sep.2024-Sep.2024</span></li>
+                <li>ELARABY HOSPITAL (Introduction to Medical Equipment) Internship <span class="date">Aug.2024-Sep.2024</span></li>
+                <li>Ain Shams General Hospital Internship <span class="date">Jul.2024-Aug.2024</span></li>
             </ul>
         </section>
 
@@ -81,7 +96,7 @@
 
         <section class="section">
             <h2>Additional Work Experience</h2>
-            <h3>Healthcare Specialist - Al-Waili Health Department (Cairo) (Aug.2022-Present)</h3>
+            <h3>Healthcare Specialist - Al-Waili Health Department (Cairo) <span class="date">Aug.2022-Present</span></h3>
             <p>Teaching all areas of health care for individuals in hospitals, providing a focused and friendly environment.</p>
             <p><strong>Key Responsibilities:</strong></p>
             <ul>
@@ -90,7 +105,7 @@
                 <li>Collaborate with healthcare professionals to assess educational needs and tailor programs accordingly.</li>
             </ul>
 
-            <h3>Sales, Financial Collector, Packaging and Supervision - Future (Cairo) (2020-2024)</h3>
+            <h3>Sales, Financial Collector, Packaging and Supervision - Future (Cairo) <span class="date">2020-2024</span></h3>
             <p>Working for a veterinary pharmaceutical company in Mostakbal City, supporting the packaging and sales team of 6 with all areas.</p>
             <p><strong>Key Responsibilities:</strong></p>
             <ul>
@@ -99,17 +114,17 @@
                 <li>Carrying out quality control checks on completed products before they move into dispatch.</li>
             </ul>
 
-            <h3>Sales - Provision (Cairo) (2020)</h3>
+            <h3>Sales - Provision (Cairo) <span class="date">2020</span></h3>
             <p>Responsible for driving sales and revenue growth by promoting and selling water purification and desalination filters to both new and existing customers.</p>
         </section>
 
         <section class="section">
             <h2>Education</h2>
             <ul>
-                <li>Faculty of Applied Medical Sciences (Minufiya University) - Bachelors, Biomedical Equipment Technology (2023-2026)</li>
-                <li>Health Technical Institute Imbaba Cairo, Egypt - Public Health Education and Promotion (2018-2021)</li>
-                <li>Hadbin School of Basic Education in Oman - High School (2015-2018)</li>
-                <li>École Éxprimental Française - Middle School (2006-2015)</li>
+                <li>Faculty of Applied Medical Sciences (Minufiya University) - Bachelors, Biomedical Equipment Technology <span class="date">2023-2026</span></li>
+                <li>Health Technical Institute Imbaba Cairo, Egypt - Public Health Education and Promotion <span class="date">2018-2021</span></li>
+                <li>Hadbin School of Basic Education in Oman - High School <span class="date">2015-2018</span></li>
+                <li>École Éxprimental Française - Middle School <span class="date">2006-2015</span></li>
             </ul>
         </section>
 
