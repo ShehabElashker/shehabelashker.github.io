@@ -3,37 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shehab Mohamed Elashker - CV</title>
+    <title>Shehab Mohamed Elashker - Professional CV</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #fff;
+            color: #000;
             margin: 0;
             padding: 0;
         }
         .header {
-            background-color: #2c3e50;
+            background-color: #000;
             color: #fff;
             padding: 20px;
             text-align: center;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
         .header h1 {
             margin: 0;
             font-size: 2.5em;
         }
+        .header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
         .container {
-            max-width: 1000px;
+            max-width: 900px;
             margin: 30px auto;
             padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
         }
         .section-title {
             font-size: 1.8em;
-            color: #34495e;
-            border-bottom: 2px solid #2980b9;
+            border-bottom: 2px solid #000;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
@@ -41,11 +41,11 @@
             margin-bottom: 40px;
         }
         .contact-info p {
-            font-size: 1.2em;
+            font-size: 1.1em;
             margin: 5px 0;
         }
         .contact-info strong {
-            color: #2980b9;
+            color: #000;
         }
         ul {
             list-style-type: none;
@@ -56,13 +56,13 @@
             font-size: 1.1em;
         }
         ul li strong {
-            color: #34495e;
+            color: #000;
         }
         .skills ul li, .education ul li, .experience ul li {
             margin-left: 20px;
         }
         .footer {
-            background-color: #34495e;
+            background-color: #000;
             color: #fff;
             text-align: center;
             padding: 10px 0;
@@ -71,23 +71,24 @@
         .footer p {
             margin: 0;
         }
-        /* For Long CV Section Styling */
-        .long-section {
-            margin-bottom: 50px;
-        }
-        .long-section p {
-            line-height: 1.6;
-            font-size: 1.2em;
-        }
-        .achievements, .projects {
-            background-color: #ecf0f1;
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
         .projects ul li {
             margin-bottom: 10px;
-            font-size: 1.1em;
+        }
+        .skills-section ul {
+            columns: 2;
+        }
+        /* Additional styling for HR-friendly design */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
         }
     </style>
 </head>
@@ -109,20 +110,20 @@
             <p><strong>Location:</strong> Gesr El Suez, Cairo, Egypt</p>
         </div>
 
-        <!-- Professional Profile -->
+        <!-- Professional Summary -->
         <div class="section-content">
-            <h2 class="section-title">Professional Profile</h2>
-            <p>Disciplined college student with a focused ambition to work within the biomedical field. Currently studying for a bachelor's degree at the Faculty of Applied Medical Sciences, I have built a sound knowledge of Mechatronics and Radiology fields through studies and research. I also have a passion for sales and marketing combined with workplace skills learned through various jobs.</p>
+            <h2 class="section-title">Professional Summary</h2>
+            <p>Medical Equipment Specialist with extensive experience in sales, packaging, and healthcare management. A results-oriented professional with strong technical expertise in maintenance, calibration, and the sales of medical devices. Adept at collaborating with healthcare professionals and maintaining operational efficiency in medical environments.</p>
         </div>
 
         <!-- Education Section -->
         <div class="section-content education">
             <h2 class="section-title">Education</h2>
             <ul>
-                <li><strong>Faculty of Applied Medical Sciences</strong> - Sep 2023 - Present</li>
-                <li><strong>Health Technical Institute, Imbaba Cairo, Egypt</strong> - Sep 2018 - 2020</li>
-                <li><strong>Al-Saeedi School, Oman</strong> - Oct 2015 - Jul 2018</li>
-                <li><strong>École Éxprimental Française</strong> - Oct 2008 - Jul 2015</li>
+                <li><strong>Faculty of Applied Medical Sciences</strong>, Sep 2023 - Present</li>
+                <li><strong>Health Technical Institute, Imbaba Cairo</strong>, Sep 2018 - 2020</li>
+                <li><strong>Al-Saeedi School, Oman</strong>, Oct 2015 - Jul 2018</li>
+                <li><strong>École Éxprimental Française</strong>, Oct 2008 - Jul 2015</li>
             </ul>
         </div>
 
@@ -130,49 +131,45 @@
         <div class="section-content experience">
             <h2 class="section-title">Work Experience</h2>
             <ul>
-                <li><strong>Al-Waili Health Department</strong> - Feb 2024 - Present (Healthcare Specialist)</li>
-                <li><strong>FUTURE Veterinary Pharmaceutical Company</strong> - Mar 2020 - Present (Sales, Financial Collector, Packaging and Supervision)</li>
+                <li><strong>Al-Waili Health Department</strong>, Feb 2024 - Present</li>
+                <li><strong>FUTURE Veterinary Pharmaceutical Company</strong>, Mar 2020 - Present</li>
+                <li><strong>Unified Procurement Authority (UPA)</strong>, Maintenance Specialist, 2024 - Present</li>
             </ul>
         </div>
 
         <!-- Skills Section -->
-        <div class="section-content skills">
+        <div class="section-content skills-section">
             <h2 class="section-title">Skills</h2>
             <ul>
+                <li>Medical Equipment Maintenance</li>
                 <li>C++ Programming</li>
-                <li>Maintenance and Calibration of Medical Equipment</li>
                 <li>Sales and Marketing</li>
+                <li>Calibration of Medical Devices</li>
+                <li>Healthcare Program Management</li>
             </ul>
         </div>
 
-        <!-- Certificates Section -->
-        <div class="section-content certificates">
-            <h2 class="section-title">Certificates</h2>
+        <!-- Certifications Section -->
+        <div class="section-content certifications">
+            <h2 class="section-title">Certifications</h2>
             <ul>
-                <li>Healthcare Specialist Certificate (Aug 2021 - Present)</li>
-                <li>Digital Marketing Certificate - Ministry of Communications, Egypt</li>
+                <li>Healthcare Specialist Certificate, Al-Waili Health Department (2021 - Present)</li>
+                <li>Digital Marketing Certificate - Ministry of Communications, Egypt (2023)</li>
             </ul>
-        </div>
-
-        <!-- Achievements Section -->
-        <div class="section-content long-section achievements">
-            <h2 class="section-title">Achievements</h2>
-            <p>Here you can highlight any significant achievements in your professional journey, such as awards, major projects, or milestones in your education and work experience.</p>
         </div>
 
         <!-- Projects Section -->
-        <div class="section-content long-section projects">
-            <h2 class="section-title">Projects</h2>
+        <div class="section-content projects">
+            <h2 class="section-title">Notable Projects</h2>
             <ul>
-                <li><strong>WaterMapper:</strong> A tool to address water-related environmental issues using NASA's satellite data, built with Arduino and basic AI features.</li>
-                <li><strong>Diabetes Care Device:</strong> Developed a wireless glucose monitoring system using cutting-edge sensor technology.</li>
-                <li><strong>Stress Measurement Wearable:</strong> Created a wearable device that measures stress levels for users through biofeedback and AI analysis.</li>
-                <!-- Add more projects as needed -->
+                <li><strong>WaterMapper:</strong> Developed a tool for water resource management using satellite data from NASA.</li>
+                <li><strong>Diabetes Care Device:</strong> Created a wireless glucose monitoring system with cutting-edge sensors.</li>
+                <li><strong>Stress Measurement Wearable:</strong> Developed a wearable for monitoring stress through biofeedback and AI.</li>
             </ul>
         </div>
 
-        <!-- Additional Sections -->
-        <!-- Add more sections like "Hobbies", "Volunteer Work", etc. as needed -->
+        <!-- Additional Sections (Optional) -->
+        <!-- Add more sections as needed such as Publications, Volunteer Work, or Awards -->
 
     </div>
 
